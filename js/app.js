@@ -25,7 +25,7 @@ particlesJS('particles-js',
       "value": "#6fddd8"
     },
     "shape": {
-      "type": "circle",
+      "type": ["text1", "text2", "text3", "text4", "text5", "text6", "text7", "text8", "text9", "text10", "text11", "text12", "text13", "text14", "text15", "text16", "text17", "text18", "text19", "text20"],
       "stroke": {
         "width": 0,
         "color": "#000"
@@ -50,7 +50,7 @@ particlesJS('particles-js',
       }
     },
     "size": {
-      "value": 30,
+      "value": 35,
       "random": false,
       "anim": {
         "enable": true,
