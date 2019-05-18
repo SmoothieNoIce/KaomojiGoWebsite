@@ -93,7 +93,7 @@ var pJS = function(tag_id, params){
         onresize: {
           enable: true,
           density_auto: true,
-          density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+          density_area: 2000 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
         },
         onhover: {
           enable: true,
