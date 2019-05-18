@@ -90,11 +90,6 @@ var pJS = function(tag_id, params){
     interactivity: {
       detect_on: 'canvas',
       events: {
-        onresize: {
-          enable: true,
-          density_auto: true,
-          density_area: 2000 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
-        },
         onhover: {
           enable: true,
           mode: 'grab'
