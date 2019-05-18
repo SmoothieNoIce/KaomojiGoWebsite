@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.header {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    width: 60%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.content1{
+    width: 35%;
+    overflow:auto;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    border-radius: 6px;
+    background: #FAFAFA;
+    text-align: center;
+}
+
+.content2{
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 180px;
+}
+
+.content3{
+    width: 35%;
+    overflow:auto;
+    box-shadow: 2px 2px 2px #CCCCCC;
+    border-radius: 6px;
+    background: #FAFAFA;
+    text-align: center;
+    margin-left: 180px;
+}
+
+.content4{
+    text-align: center;
+    width: 250px;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+.container-text{
+    float: left;
+}
+
+#header-title {
+    max-width: 700dp;
+    width: 100%;
+    font-size: 3em;
+    color: #6fddd8;
+    text-align: center;
+    font-weight: bold;
+}
+
+#header-subtitle {
+    margin-top: 1%;
+    max-width: 700dp;
+    width: 100%;
+    font-size: 1.3em;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+#header-subtitle2 {
+    margin-top: 1%;
+    max-width: 700dp;
+    width: 100%;
+    font-size: 1em;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+#header-download {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#header-img {
+    width: 5%;
+}
